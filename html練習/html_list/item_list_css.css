@@ -1,0 +1,35 @@
+﻿@charset "UTF-8";
+
+body{
+	background-color: #7fffd4;
+	font-family: Century; /*フォント*/
+	text-align: center; /*中央揃え*/
+	
+}
+
+h1{
+	font-size: 32px;/*フォントサイズ*/
+}
+
+/*テーブル*/
+table{
+	border: 1px solid green; /*テーブルの外枠（実線)の幅と色*/
+	border-collapse: collapse;/*セルのボーダー(間)の表示の仕方*/
+	width:80%;	/*画面の何割外枠を表示させるか*/
+	margin-left: auto; /*ピクセル単位で設定可能*/
+	margin-right: auto;
+}
+
+tr{
+	border: 1px solid black; 
+	
+}
+
+th{
+	border: 1px solid black;
+}
+
+td{
+	border: 1px solid black; 
+}
+
